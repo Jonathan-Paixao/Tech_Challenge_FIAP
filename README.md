@@ -56,7 +56,12 @@ O projeto segue a arquitetura Medallion para garantir a qualidade e a governanç
 │
 ├── Gold_Data/                   # Camada Ouro: Dados finais, limpos e prontos para consumo
 │   ├── Dados_internos/
+│       ├── Excel/
+│       ├── Parquet/
+│
 │   └── Dados_externos/
+│       ├── Excel/
+│       ├── Parquet/
 │
 ├── ETL_FiapChall.ipynb          # O notebook principal com todo o processo de ETL
 └── README.md                    # Esta documentação
